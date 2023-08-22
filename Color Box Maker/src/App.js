@@ -1,6 +1,6 @@
 import React from "react";
-import "./App.css";
 import BoxList from "./BoxList";
+import Box from "./Box";
 
 /** Simple app that just shows the LightsOut game. */
 

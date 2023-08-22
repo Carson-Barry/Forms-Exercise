@@ -1,13 +1,13 @@
 import React from "react";
+import "./Box.css";
 
-const Box = ({color, height, width}) => {
+const Box = ({color = "green", height = "100px", width = "100px"}) => {
     return (
-        <div style={{
-            height: {height},
-            width: {width},
-            backgroundColor: {color}
-        }}>
-        </div>
+        <div className="Box" style={{
+            height,
+            width,
+            backgroundColor: color,
+        }}></div>
     )
 }
 
