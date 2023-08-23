@@ -1,0 +1,19 @@
+.Todo-text {
+    display: inline;
+    margin-right: 10px;
+}
+
+.Todo-remove-button {
+    border: 1px dashed black;
+    background-color: cadetblue;
+    color: white;
+    box-shadow: 10px black;
+    border-radius: 5px;
+    height: 28px;
+    width: 28px;
+    font-size: 18px;
+}
+
+.Todo-remove-button:hover {
+    background-color: darkgray;
+}
